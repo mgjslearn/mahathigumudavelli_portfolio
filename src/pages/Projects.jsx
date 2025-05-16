@@ -17,7 +17,7 @@ const Projects = () => {
     <div className='mt-5 flex flex-col gap-3 text-slate-500'>
       <p>
        These are some projects exploring my diverse skill set. I enjoy learning coding through the process of making different projects
-       on topics of my interest. Throughout the following projects I have explored python, android studio, tailwindcss and react.js, javafx and more!
+       on topics of my interest. Throughout the following projects I have explored implementing AI models, Cybersecurity, App development on android studio, tailwindcss and react.js, javafx and more!
        If you have any ideas for projects and would love to work on it together, feel free to contact me!
       </p>
     </div>
