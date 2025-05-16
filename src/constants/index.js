@@ -251,6 +251,36 @@ export const projects = [
         link: 'https://gist.github.com/mgjslearn/02a5ce20b6b26895f4a0d29c9eb7a976',
     },
     {
+
+        theme: 'btn-back-black',
+        name: 'AI for Image Classification - Scene Recognition',
+        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition,
+        link: 'https://gist.github.com/mgjslearn/984c44d098f5fc9a983a0a55234f8800',
+    },
+    {
+
+        theme: 'btn-back-black',
+        name: 'Computer Vision - Semantic Segmentation',
+        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition,
+        link: 'https://gist.github.com/mgjslearn/8d482fc1596fbdc108ce0958419566e8',
+    },
+    {
+
+        theme: 'btn-back-black',
+        name: 'Cryptography - Length Extension, Padding Oracle',
+        description: 'Exploited cryptographic vulnerabilities using SHA-256 length extension and CBC padding oracle',
+        link: 'https://gist.github.com/mgjslearn/ea399469d7cef37134c03a93fd31eef2',
+    },
+    
+    {
+
+        theme: 'btn-back-black',
+        name: 'Computer Architecture - LC4000 Construction',
+        description: 'Created LC4000 Architecture using CircuitSim application',
+        link: 'https://gist.github.com/mgjslearn/f8d39d6ca50b26f9a22a0fb563d1cf01',
+    },
+    
+    {
         
         theme: 'btn-back-red',
         name: 'Food <-> Nationality Generator',
