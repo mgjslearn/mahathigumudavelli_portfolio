@@ -254,14 +254,14 @@ export const projects = [
 
         theme: 'btn-back-black',
         name: 'AI for Image Classification - Scene Recognition',
-        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition,
+        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition',
         link: 'https://gist.github.com/mgjslearn/984c44d098f5fc9a983a0a55234f8800',
     },
     {
 
         theme: 'btn-back-black',
         name: 'Computer Vision - Semantic Segmentation',
-        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition,
+        description: 'Designed, Trained, and Fine Tuned deep convolutional networks using ResNet architecture for scene recognition',
         link: 'https://gist.github.com/mgjslearn/8d482fc1596fbdc108ce0958419566e8',
     },
     {
