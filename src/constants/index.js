@@ -242,6 +242,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+
+        theme: 'btn-back-black',
+        name: 'AI Stock Market Summary Bot',
+        description: 'This project fetches real-time finance news and stock data, sends it to a Hugging Face LLM (Meta-Llama-3.1-8B-Instruct), and receives a natural-language market summary in one seamless flow.',
+        link: 'https://github.com/mgjslearn/AI-Stock-Market-Summary-Bot',
+    },
    
     {
 
