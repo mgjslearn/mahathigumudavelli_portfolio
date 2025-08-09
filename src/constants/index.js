@@ -1,4 +1,4 @@
-import { meta, google, frba, cisco, dataseers, sf } from "../assets3/images";
+import { meta, google, frba,, gev, cisco, dataseers, sf } from "../assets3/images";
 import {
     car,
     contact,
