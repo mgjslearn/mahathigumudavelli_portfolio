@@ -164,6 +164,20 @@ export const skills = [
 ];
 
 export const experiences = [
+     {
+        title: "Cyber Threat and AI Management Intern",
+        company_name: "GE Vernova",
+        icon: gev,
+        iconBg: "#228B22",
+        date: "Summer 2025",
+        points: [
+             "Automated Gold Data consolidation and built a searchable index of 100+ security standards to support internal Cyber AI agent, and coordinated with CISO leaders to standardize security data migrations into Databricks using LEAN",
+            "Led emerging technology discussions and Prompt Engineering training across CISO and Cyber Tower leaders.",
+            "Managed communications for the global PKI team, coordinating remediation of 300+ misrouted SSL certificates."
+            "Ideated and organized LIFT, GE Vernova's AI internal hackathon and implemented 3 GENAI use cases."
+            ],
+
+    },
     {
         title: "PowerApps Developer/Solutions Architect Intern",
         company_name: "Federal Reserve Bank of Atlanta",
