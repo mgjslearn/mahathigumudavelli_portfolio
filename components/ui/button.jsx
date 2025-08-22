@@ -4,9 +4,8 @@ export default function Button({ children, variant = "primary", ...props }) {
   let styles =
     variant === "outline"
       ? base +
-        "border border-purple-500 text-purple-500 bg-transparent hover:bg-purple-500 hover:text-black"
-      : base +
-        "bg-purple-700 text-white hover:bg-purple-800";
+        "border border-purple-500 text-white bg-transparent hover:bg-purple-500 hover:text-black"
+      : base + "bg-purple-500 text-black hover:bg-purple-600";
   return (
     <button className={styles + (props.className ? ` ${props.className}` : "")} {...props}>
       {children}

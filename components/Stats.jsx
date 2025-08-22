@@ -21,20 +21,30 @@ const stats = [
 
 ]
 const Stats = () => {
-  return <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
-<div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
-  {stats.map((item,index)=> {
-  return <div className="flex-1 flex gap-4 items-center justify-center xl:justify-start" key={index}>
-    <CountUp
-    end={item.num}
-    duration={5}
-    delay={2}
-    className="text-4xl xl:text-6xl font-extrabold"
-  />
-  <p className={`${item.text.length < 15 ? "max-w-[100px]" : "max-w-[150px]" } leading-snug text-white/80`}>{item.text}</p>
-  </div>
-  })}</div>
-  </section>
+  return (
+    <section className="pt-10 pb-8 xl:pt-12 xl:pb-12">
+      <div className="flex flex-wrap gap-10 max-w-4xl mx-auto justify-center items-center">
+        {stats.map((item, index) => (
+          <div
+            className="flex flex-col items-center justify-center flex-1 min-w-[150px]"
+            key={index}
+          >
+            <CountUp
+              end={item.num}
+              duration={3}
+              delay={1}
+              className="text-5xl xl:text-7xl font-extrabold text-center"
+            />
+            <p
+              className={`mt-2 text-center text-lg xl:text-xl text-white/80 ${item.text.length < 15 ? "max-w-[120px]" : "max-w-[180px]"}`}
+            >
+              {item.text}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
   
 }
 

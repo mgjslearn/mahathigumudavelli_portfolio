@@ -21,10 +21,15 @@ const Home = () => {
               I enjoy data and AI engineering/analysis, full stack development,  MLSecOps/Data governance,and product management.  </p>
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-              <span>Download Resume</span>
-              <FiDownload className="text-xl"/>
-            </Button>
+            <a
+              href="https://docs.google.com/document/d/1GgVh60-k2lJhb1aNYIrcdr4c62pSNchFAOhoRK67FaA/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+                <span>See Resume</span>
+              </Button>
+            </a>
             <div className="mb-8 xl:mb-0">
               <Social 
                 containerStyles="flex gap-6" 
@@ -39,8 +44,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Stats />
-      
+      <div className="flex justify-center w-full mt-2 xl:mt-4">
+        <Stats />
+      </div>
       {/* Add Maha Bot - it will appear as a floating chat button */}
       <MahaBot />
     </section>
