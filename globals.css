@@ -1,0 +1,12 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+
+:root {
+  --color-primary: #1c1c22;
+  --color-accent: #00ff99;
+}
+
+body {
+  background: var(--color-primary);
+  color: white;
+}
