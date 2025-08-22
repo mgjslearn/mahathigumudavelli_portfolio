@@ -18,7 +18,7 @@ const Home = () => {
               Hello I'm <br /> <span className="text-purple-500  ">Mahathi Gumudavelli</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">I have a background in Computer Science with a focus in Artificial Intelligence and Cybersecurity. I'm proficient in various programming languages and technologies. 
-              I enjoy data and AI engineering/analysis, full stack development,  MLSecOps/Data governance,and product management.  </p>
+              I am passionate about SWE and product/customer management roles in the areas of AI, Data/Cloud, and Governance/Security!  </p>
           {/* btn and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
             <a
