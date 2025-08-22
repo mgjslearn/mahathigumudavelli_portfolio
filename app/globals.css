@@ -1,10 +1,17 @@
-button:hover {
+nav button:hover {
   @apply bg-purple-500 text-black;
 }
-/* Global button style for purple text and border */
-button {
+
+/* More specific global button style - only applies to buttons without custom classes */
+button:not([class*="bg-"]):not([class*="hover:"]) {
   @apply text-purple-500 border border-purple-500 rounded-full px-6 py-3;
 }
+
+/* Or use a class-based approach instead of global button selector */
+.default-button {
+  @apply text-purple-500 border border-purple-500 rounded-full px-6 py-3;
+}
+
 /* Global h1 utility class for responsive headings */
 .h1 {
   @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
@@ -15,6 +22,7 @@ button {
 .h3 {
   @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
 }
+
 @import "tailwindcss";
 
 :root {

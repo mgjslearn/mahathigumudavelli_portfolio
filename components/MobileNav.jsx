@@ -43,7 +43,7 @@ const MobileNav = () => {
                                             </nav>
                                             <div className="flex justify-center mt-8">
                                                 <Link href="/contact">
-                                                    <Button>Hire me</Button>
+                                                    <Button className="bg-purple-500 text-black hover:bg-purple-600 hover:text-black">Hire me</Button>
                                                 </Link>
                                             </div>
                                             <SheetClose />

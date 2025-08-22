@@ -261,7 +261,7 @@ const Contact = () => {
               <button
                 onClick={handleSubmit}
                 disabled={isSubmitting}
-                className="w-full bg-purple-500 hover:bg-purple-600 disabled:bg-purple-500/50 disabled:cursor-not-allowed text-white font-semibold py-4 px-6 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
+                className="w-full bg-purple-500 hover:bg-purple-600 hover:text-black disabled:bg-purple-500/50 disabled:cursor-not-allowed text-black font-semibold py-4 px-6 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
               >
                 {isSubmitting ? (
                   <>
