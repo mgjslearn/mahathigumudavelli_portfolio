@@ -12,6 +12,14 @@ const projects = [
     technologies: ['Python', 'FastAPI', 'WebSockets', 'Docker'],
   },
   {
+    name: 'LinksLens App',
+    description: 'LinkLens is an AI-powered networking pathfinder that helps users strategically grow and manage their professional connections.',
+    link: 'https://github.com/mgjslearn/linklens-app',
+    category: 'AI',
+    theme: 'bg-gradient-to-r from-purple-600 to-blue-600',
+    technologies: ['Python', 'React', 'Tailwind CSS'],
+  },
+  {
     name: 'AI Resume Advisor',
     description: 'AI-powered resume review and feedback tool for job seekers.',
     link: 'https://github.com/mgjslearn/AI-Resume-Advisor',
