@@ -13,8 +13,10 @@ const projects = [
   },
   {
     name: 'LinksLens App',
-    description: 'LinkLens is an AI-powered networking pathfinder that helps users strategically grow and manage their professional connections.',
-    link: 'https://github.com/mgjslearn/linklens-app',
+    description: 'LinkLens is an AI-powered networking pathfinder that helps users strategically approach networking and understand their network.',
+    link: 'https://linklens-app.vercel.app/',
+    github: 'https://github.com/mgjslearn/linklens-app',
+    tutorial: 'https://drive.google.com/file/d/1LX-eaIoHUjfPR8u8_BGYnXl4TqhA6C22/view?usp=sharing',
     category: 'AI',
     theme: 'bg-gradient-to-r from-purple-600 to-blue-600',
     technologies: ['Python', 'React', 'Tailwind CSS'],
