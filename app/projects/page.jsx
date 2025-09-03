@@ -15,11 +15,12 @@ const projects = [
     name: 'LinksLens App',
     description: 'LinkLens is an AI-powered networking pathfinder that helps users strategically approach networking and understand their network.',
     link: 'https://linklens-app.vercel.app/',
-    github: 'https://github.com/mgjslearn/linklens-app',
-    tutorial: 'https://drive.google.com/file/d/1LX-eaIoHUjfPR8u8_BGYnXl4TqhA6C22/view?usp=sharing',
-    category: 'AI',
-    theme: 'bg-gradient-to-r from-purple-600 to-blue-600',
-    technologies: ['Python', 'React', 'Tailwind CSS'],
+  github: 'https://github.com/mgjslearn/linklens-app',
+  tutorial: 'https://drive.google.com/file/d/1LX-eaIoHUjfPR8u8_BGYnXl4TqhA6C22/view?usp=sharing',
+  image: '/assets/linklens-app.png',
+  category: 'AI',
+  theme: 'bg-gradient-to-r from-purple-600 to-blue-600',
+  technologies: ['Python', 'React', 'Tailwind CSS'],
   },
   {
     name: 'AI Resume Advisor',
@@ -160,7 +161,22 @@ const Projects = () => {
         {filtered.map(project => (
           <div key={project.name} className="w-full max-w-xs bg-neutral-800 rounded-2xl shadow-lg p-6 flex flex-col border border-gray-700 hover:scale-105 transition-transform">
             {project.image && (
-              <img src={project.image} alt={project.name + ' screenshot'} className="w-full h-32 object-cover rounded-xl mb-4 border border-gray-700" />
+              <div className="relative mb-4">
+                <img src={project.image} alt={project.name + ' screenshot'} className="w-full h-32 object-cover rounded-xl border border-gray-700" />
+                {project.tutorial && project.name === 'LinksLens App' && (
+                  <a
+                    href={project.tutorial}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute inset-0 flex items-center justify-center group"
+                    title="Watch Demo Video"
+                  >
+                    <span className="bg-black/60 rounded-full p-3 group-hover:bg-purple-700/80 transition">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" width="32" height="32"><path d="M8 5v14l11-7z"/></svg>
+                    </span>
+                  </a>
+                )}
+              </div>
             )}
             <div className={`w-12 h-12 mb-4 rounded-xl flex items-center justify-center text-white text-2xl ${project.theme}`}></div>
             <h4 className="text-xl font-semibold mb-1 text-white">{project.name}</h4>
